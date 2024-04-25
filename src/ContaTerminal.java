@@ -14,19 +14,19 @@ public class ContaTerminal {
 
         //Entrada de dados
         System.out.print("Digite seu nome: ");
-        conta.nomeCliente = input.next();
+        conta.setNomeCliente(input.next());
 
         System.out.print("Digite seu sobrenome: ");
-        conta.sobrenomeCliente = input.next();
+        conta.setSobrenomeCliente(input.next());
 
         System.out.print("Digite o número da sua conta: ");
-        conta.numero = input.nextInt();
+        conta.setNumero(input.nextInt());
 
         System.out.print("Digite sua agência: ");
-        conta.agencia = input.next();
+        conta.setAgencia(input.next());
 
         System.out.print("Digite o saldo a ser depositado: ");
-        conta.saldo = input.nextDouble();
+        conta.setSaldo(input.nextDouble());
 
 
         // Saída dos dados
